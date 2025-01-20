@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+
+        <div class="grey">
+            <h4>بوابة الممولين</h4>
+            <div class="pink">
+                <button onclick="login()" id="btn">&#8249</button>
+                <button>لوحة حسابي دخول الافراد</button>
+            </div>
+        </div>
+
+        <a class="head3" href="products.html">المنتجات</a>
+        <h3 id="main" onclick="navbar1()">الرئيسيه</h3>
+        <img src="./imges/logo_ar.svg" alt="">
+    </div>
+
+    <div class="bigform">
+        <form id="bigform">
+            <label for="name">اسم الشركة</label><br>
+            <input type="text" name="name" id="company"><br>
+            <label for="count">عدد الموظفين</label><br>
+            <select name="count" id="count">
+                <option value="1">1-99</option>
+                <option value="2">100-200</option>
+                <option value="3">201-500</option>
+                <option value="4">501-1000</option>
+            </select><br>
+
+            <label for="text">الاسم</label><br>
+            <input type="text" id="name"><br>
+            <label for="text">المسمى الوظيفي</label><br>
+            <input type="text" id="work"><br><br>
+            <label for="email">البريد الالكتروني</label><br>
+            <input type="text" id="email"><br><br>
+            <label for="number">رقم الهاتف</label><br>
+            <input type="number" id="phone" placeholder="+9665033452667"><br>
+            <button type="submit" id="submit">ارسال</button>
+            <p id="error"></p>
+
+
+        </form>
+        <div class="logoB">
+            <img src="./imges/logo_ar.svg" alt="">
+            <h3>انتقل بشركتك الى مستوى متقدم</h3>
+            <p>وحرر موظفينك من الأعباء لانتاجيه اكبر وولاء وظيفي منقطع النظير</p>
+            <a href="">نبذة عنا</a>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>

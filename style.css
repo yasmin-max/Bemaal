@@ -1,0 +1,849 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background:rgb(205, 205, 205);
+    font-family: "IBM Plex Sans Arabic", serif;
+}
+
+
+.header {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+position: fixed;
+width: 100%;
+top: 0;
+font-family: "IBM Plex Sans Arabic", serif;
+z-index: 110;
+}
+.header a{
+    text-decoration: none ;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    font-family: "Saira", serif;
+
+}
+#btn{
+    height: 35px;
+    width: 35px;
+    background: transparent;
+    border: 1px solid white;
+}
+.pink{
+    background: rgb(224, 104, 164);
+    border-radius: 25px;
+    border: 2px solid black;
+ 
+}
+.grey{
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    padding: 13px;
+    border-radius: 45px;
+}
+.header img {
+    width: 230px;
+    height: 150px;
+    margin-left: 190px;
+}
+
+.header h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 10px;
+    font-family: "Saira", serif;
+}
+.iconA{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 30px;
+}
+
+.header button {
+    width: 200px;
+    height: 50px;
+    border: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 28px;
+    background: rgb(224, 104, 164);
+    color: azure;
+    margin-left: 8px;
+    font-family: "Saira", serif;
+}
+
+.head3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 180px;
+    margin-right: 20px;
+    font-family: "Saira", serif;
+}
+
+.header h3 {
+    font-family: "Saira", serif;
+}
+
+/*...............container style.....................*/
+.container {
+    background: rgb(30, 103, 106);
+    border: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 185px 70px 20px 70px;
+    border-radius: 30px;
+    height: 370px;
+    padding:30px;
+}
+
+.left{
+    display: flex;
+   align-items: center;
+   gap: 20px;
+}
+
+.container2 button{
+    height: 20px;
+    width: 20px;
+    border-radius: 200px;
+    background: rgb(30, 103, 106);
+color: white;
+border: 0px;
+}
+
+
+.container h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: azure;
+    margin-right: 25px;
+
+}
+
+.content h5 {
+    text-align: right;
+    font-size: 25px;
+    font-weight: 700;
+    color: azure;
+    margin-right: 25px;
+    text-decoration: dashed;
+}
+
+.title {
+    margin-top: 30px;
+}
+
+.content button {
+    margin-left: 300px;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px 35px;
+    border-radius: 15px;
+    color: azure;
+    margin-top: 30px;
+    background: rgb(221, 98, 159);
+border: 0px;
+cursor: pointer;
+animation:shadowWave 3s infinite;
+position: relative;
+
+}
+@keyframes shadowWave{
+    0%{
+        box-shadow: 0 0 50px rgb(114, 212, 114);
+    }
+    50%{
+        box-shadow: 0 0 0 ٓےrgb(7, 170, 157);
+    }
+    100%{
+        box-shadow:0 0 50px rgb(85, 199, 195);
+    }
+}
+/*.................card style........................*/
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 80px;
+}
+
+.card1 img{
+width: 80px;
+height: 68px;
+background: gainsboro;
+border-radius: 20px;
+padding: 22px;
+z-index: 10;
+}
+.card1{
+    background:white;
+    width: 20vw;
+    height: 100%;
+    border-radius: 20px;
+padding: 30px;
+}
+.card11 ,.card12, .card13{
+    display: flex;
+}
+.cards{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+   padding: 10px;
+   gap: 20px;
+}
+.cards h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: grey;
+    margin-left: 70px;
+}
+.cards h3{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(8, 52, 52);
+   direction: rtl;
+}
+.cards h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(221, 98, 159);
+margin-bottom: 20px;
+margin-left: 50px;
+}
+#card1{
+    margin-right: 60px;
+}
+.endtitle{
+    text-align: center;
+   color:rgb(73, 68, 68);
+}
+/*،.................container3 style..........................*/
+.container3{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 70px;
+    background-color: white;
+    border-radius: 20px;
+}
+.container3 img{
+    width: 450px;
+    height: 450px;
+}
+.container3 h2{
+    font-size: 34px;
+    font-weight: 800;
+   color: rgb(19, 69, 69);
+    text-align: right;
+ padding: 40px;
+ margin-top: 50px;
+}
+.container3 p{
+    font-size: 20px;
+    margin-right: 40px;
+}
+.container3 span{
+    text-align: right;
+    margin-left: 360px;
+}
+.container3 button{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 8px 35px;
+    border-radius: 12px;
+    color: azure;
+    margin-top: 30px;
+    background: rgb(221, 98, 159);
+margin-left: 220px;
+border: 0px;
+}
+/*,,,,,,,,,,,,,,,,,,,,,,container4.....................*/
+.container4{
+    display: flex;
+    justify-content: space-between;
+    background:rgb(87, 46, 46);
+    height: 350px;
+    margin: 30px 60px;
+    border-radius: 20px;
+    position: relative;
+}
+.container4 h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    padding: 30px;
+    margin-left: 30px;
+}
+.container4 span{
+    margin-left: 120px;
+}
+.container4 .span1{
+    margin-left: 280px;
+}
+.container4 button{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 35px;
+    border-radius: 12px;
+    color: azure;
+    margin-top: 30px;
+    background: rgb(221, 98, 159);
+    margin-left: 250px;
+    border: 0px;
+}
+.container4 img{
+    background: white;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgb(8,52,52);
+margin-right: 3px;
+}
+.img1{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    padding: 23px;
+    bottom: 220px;
+    right: 0;
+    margin-top: 60px;
+    z-index: 100;
+
+
+}
+.img2{
+    position: absolute;
+    bottom: 40;
+    right: 0;
+    margin-top: 110px;
+    z-index: 10;
+    width: 120px;
+    height: 120px;
+    border: 20px solid white;
+
+}
+.img3{
+    position: absolute;
+    bottom: -20px;
+    right: 80px;
+    padding: 23px;
+    width: 80px;
+    height: 80px;
+
+}
+/*.....................container5 style.........................*/
+.location{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    padding: 20px;
+    margin-top: 66px;
+}
+.container5{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 30px 20px;
+   background: rgb(30, 103, 106);
+height: 240px;
+border-radius: 20px;
+}
+.locatio{
+    width: 25px;
+    height:25px;
+}
+.location h6{
+    font-size: 16px;
+    font-weight: 300;
+    color:white;
+
+}
+.container5 h6{
+    font-size: 16px;
+    font-weight: 300;
+    color:white;
+}
+#location{
+    margin-left: 55px;
+}
+#location2{
+    margin-left: 65px;
+}
+#last{
+}
+.container5 h3{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+
+}
+.container5 a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.container5 h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    padding: 30px;
+}
+.container5 span{
+    margin-left: 125px;
+}
+.footer img{
+    background: white;
+    padding: 10px;
+    border-radius: 200px;
+    margin-left: 50px;
+    
+}
+.icon2{
+    margin-left: 70px;
+}
+/*.....................login.....................*/
+.input1{
+    margin-top: 170px;
+    background: white;
+margin-left: 370px;
+margin-right: 370px;
+height: 100%;
+border-radius: 30px;
+padding: 30px;
+}
+.input1 h3{
+    font-size: 26px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 170px;
+}
+.input1 input{
+    font-size: 22px;
+    font-weight: 300;
+    color: darkgreen;
+    text-align: right;
+    padding: 30px;
+    border: 1px solid darkgreen;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+.input1 button{
+    width: 330px;
+    height: 70px;
+    border: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 13px;
+    background: rgb(224, 104, 164);
+    color: azure;
+    margin-left: 150px;
+    font-family: "Saira", serif;
+}
+.input1 h4{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.href{
+    display: flex;
+    margin-left: 200px;
+}
+.href a{
+text-decoration: none;
+color: black;
+font-size: 18px;
+font-weight: 800;
+
+}
+/*........................ form style..................*/
+.bigform{
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.bigform img{
+    width: 200px;
+    height: 130px;
+    margin-left: 160px;
+   
+}
+#bigform{
+    background: whitesmoke;
+    margin: 30px 0px;
+    width: 500px;
+    height: 100%;
+padding:20px;
+border-radius: 20px;
+text-align: right;
+}
+#bigform label{
+font-size: 18px;
+font-weight: 600;
+margin-left: 370px;
+}
+#bigform input ,select{
+    height: 50px;
+    width: 450px;
+    margin-left: 30px;
+    background: white;
+    border-radius: 10px;
+    border: 0px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#bigform button{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 35px;
+    border-radius: 12px;
+    color: azure;
+    margin-top: 30px;
+    background: rgb(221, 98, 159);
+    margin-right: 190px;
+    border: 0px;
+}
+.logoB{
+    background: white;
+    width: 370px;
+    height: 100%;
+    padding: 20px;
+    border-radius: 20px;
+}
+.logoB h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 40px;
+    
+}
+.logoB p{
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 20px;
+}
+.logoB a{
+    text-decoration: none;
+    margin-left: 300px;
+color: rgb(19, 69, 69);
+font-weight: 600;
+    
+}
+/*...................product style......................*/
+
+.product1{
+    background: rgb(30, 103, 106);
+    border: 9px;
+    margin: 185px 70px 20px 70px;
+    border-radius: 30px;
+    height: 200px;
+    padding:30px;
+    text-align: right;
+    display: flex;
+    padding-left: 0px;
+}
+
+.product1 h3{
+    font-size: 49px;
+    font-weight: 800;
+    color: azure;
+    margin-right: 20px;
+    font-family: "IBM Plex Sans Arabic", serif;
+
+}
+
+.product1 h5{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    font-family: "IBM Plex Sans Arabic", serif;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.product1 span{
+    background: yellow;
+color: black;
+border-radius: 5px;
+}
+.imgpro{
+    width: 250px;
+    height: 250px;
+    margin-right: 40%;
+   margin-bottom: 40px;
+}
+.card button{
+    height: 20px;
+    width: 20px;
+    border-radius: 200px;
+    background: rgb(25, 68, 70);
+color: white;
+border: 0px;
+}
+.amazon img{
+    width: 60px;
+    height: 60px;
+
+}
+.amazon{
+    background: rgb(221, 98, 159);
+
+    height: 100%;
+    width: 6vw;
+    padding: 24px;
+    border-radius: 19px;
+    color: white;
+    margin-left: 85%;
+    text-align: center;
+}
+
+/*...............star cards style........................*/
+.cardsP img{
+    background:rgb(236, 231, 231);
+    width: 7vw;
+    height: 100%;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+padding:20px;
+}
+.midimg{
+   overflow: hidden;
+
+}
+.endimg{
+    background:rgb(236, 231, 231);
+    width: 7vw;
+    height: 100%;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+padding:20px;
+padding-bottom: 43px;
+
+
+}
+.cardsP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardsP2{
+    display: flex;
+    margin-left: 59vw;
+    margin-bottom: 10vh;
+}
+.titleP{
+    background: white;
+    width: 24vw;
+    height: 100%;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+   
+}
+.smallD{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.titleP h3{
+    font-size: 24px;
+    font-weight:bolder;
+    color:rgb(24, 82, 84) ;
+    direction: rtl;
+    
+}
+.titleP h4{
+    font-size: 26px;
+    font-weight: 700;
+    color: rgb(76, 72, 72);
+    text-align: right;
+}
+.titleP h6{
+font-size:18px;
+font-weight: 400;
+color: rgb(221, 98, 159);
+text-align: right;
+
+}
+.titleP button{
+    background:rgb(24, 82, 84) ;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 7px;
+    border-radius: 10px;
+    width: 150px;
+    border: 0px;
+}
+.titleP p{
+    color:  rgb(76, 72, 72);
+    font-size: 14px;
+    margin-left: 34px;
+}
+/*........all cards.....................................*/
+.bigerD{
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    margin-top: 100px;
+ margin-bottom: 40px;
+    gap: 10px;
+    margin-left: 300px;
+}
+/*...............sadad style............................*/
+
+.sadad{
+    background:rgb(24, 82, 84) ;
+display: flex;
+justify-content: right;
+align-items: center;
+margin-top:190px;
+margin-left: 80px;
+margin-right: 80px;
+padding: 40px;
+border-radius: 20px;
+}
+.sadad img{
+    width: 100px;
+    height: 100px;
+    background: gainsboro;
+    border-radius: 40px;
+    padding: 30px;
+    z-index: 10;
+   
+   
+}
+.sadad h3{
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    padding: 10px;
+}
+.sadad h4{
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+text-align: right;
+padding: 10px;
+}
+.sadad2{
+    padding: 40px;
+   margin-right: 50px;
+}
+.sadad2 h3{
+    font-size: 28px;
+    font-weight: 600;
+    text-align: right;
+    margin-bottom: 15px;
+}
+.sadad2 h4{
+   text-align: right;
+
+}
+.sadad2 span{
+    color: rgb(221, 98, 159);
+    font-size: 22px;
+    font-weight: 700;
+    background: white;
+    border-radius: 20px;
+    padding: 0px 15px;
+
+}
+.sadad3 h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+.sadad3{
+    display: flex;justify-content: right;
+    gap: 10px;
+   margin-bottom: 15px;
+}
+.pink2{
+    display: flex;
+    align-items: center;
+    color: rgb(221, 98, 159);
+background: white;
+border-radius: 15px;
+padding: 0px 15px;
+}
+.sadad3 h5{
+    direction: rtl;
+}
+.sadad4{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 20px;
+    background:white;
+    margin:10px 70px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.sadad4 h5{
+    font-size: 16px;
+    font-weight: 700;
+    margin-right:  20px;
+    text-decoration:underline;
+}
+.pay{
+    color: gray;
+}
+.sadad5{
+    background: white;
+    margin: 20px 70px;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: right;
+}
+.sadad5 p{
+    font-weight: 500;
+    color: rgb(75, 73, 73);
+    margin: 15px 0px;
+}
+.payment{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background:rgb(220, 186, 220);
+    padding: 15px;
+    margin: 20px 90px 30px 520px;
+    border-radius: 20px;
+    bottom: 60;
+    right: 60;
+    position: fixed;
+}
+.payment button{
+    font-size: 18px;
+    font-weight: 800;
+    padding: 15px 10px;
+    border-radius: 15px;
+    color: azure;
+    margin-top: 30px;
+    background: rgb(221, 98, 159);
+border: 0px;
+cursor: pointer;
+
+}
+.payment h3{
+    font-size: 22px;
+    font-weight: 700;
+
+}
+
